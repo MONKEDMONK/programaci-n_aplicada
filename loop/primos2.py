@@ -1,18 +1,18 @@
-a =1
-valor = input("Ingrese un valor")
-valor=  int(valor)
+a = 1
+value = input('Ingrese un valor')
+value = int(value)
 
 while a == 1:
-  for i in range(1,valor+1)
-      conta = 0
-      for n in range(1, i+1)
-        residuo = i%n
-          if  residue == 0
-               conta = conta + 1
+    for i in range(1,value+1):
+        conta = 0
+        for n in range(1, i+1):
+            residue = i%n
+            if residue == 0:
+                conta = conta + 1
             
             # print("i = ", i)
             # print("n = ", n)
-            # print("residuo = ", residuo)
+            # print("residue = ", residue)
             # print("conta = ", conta)
     if conta == 2:
        print(f'{i} es un primo')
