@@ -1,14 +1,14 @@
-# for i in range (1,21):
-#     residual = i%2
-#     if residual == 0:
-#         print(f'{i} is even')
-#     else:
-#         #print(f'{i} is odd')
-#         print(str(i) + ' is odd')
+for i in range (1,21):
+     residual = i%2
+     if residual == 0:
+         print( i," is even")
+     else:
+         #print('{i} is odd')
+         print(str(i) + ' is odd')
 
-# for i in range (0,6):
-#     result = i**3
-#     print(result)
+for i in range (0,6):
+     result = i**3
+     print(result)
 
 times = input("Enter a number of times: ")
 times = float(times)
