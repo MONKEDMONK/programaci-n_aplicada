@@ -1,3 +1,4 @@
+# parte de los impares
 for i in range (1,21):
      residual = i%2
      if residual == 0:
@@ -5,11 +6,11 @@ for i in range (1,21):
      else:
          #print('{i} is odd')
          print(str(i) + ' is odd')
-
-for i in range (0,6):
+# contador con multiplicado
+for i in range (1,6):
      result = i**3
      print(result)
-
+#contador hasta el numero ingresado excepto 0
 times = input("Enter a number of times: ")
 times = float(times)
 times = int(times)
