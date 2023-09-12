@@ -41,3 +41,14 @@ print(oscar_winners)
 oscar_winners.pop("Animated Feature")
 #del oscar_winners["Best Actress"]
 print(oscar_winners)
+
+drinks =["expreso","chai","decaf","drip"]
+caffeine = [64, 40, 0, 120]
+Zipped_drinks =zip(drinks,caffeine)
+print(Zipped_drinks)
+drinks_to_caffeine ={key:value for key,value in Zipped_drinks}
+print(drinks_to_caffeine)
+
+Zipped_drinks=zip(caffeine,drinks)
+drinks_to_caffeine ={key:value for key,value in Zipped_drinks}
+print(drinks_to_caffeine)
