@@ -13,4 +13,15 @@ vacio = {"diomedes":3}
 vacio ["mancos" ] = 4
 print (vacio)
 
+animals_in_zoo = {"zebras": 8, "monkeys": 12}
+animals_in_zoo["dinosaurs"] =  0
+print("animales_en_zoo",animals_in_zoo)
+
+menu = {"oatmeal": 3, "avocado toast": 6, "carrot juice": 5, "blueberry muffin": 2}
+print(menu)
+menu["cheesecake"] = 8
+print(menu)
+animals_in_zoo = {"dinosaurs": 0}
+animals_in_zoo = {"gatos": 0}
+print("animales_en_zoo",animals_in_zoo)
 
