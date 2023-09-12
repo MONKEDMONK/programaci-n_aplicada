@@ -30,10 +30,14 @@ print(user_ids)
 user_ids.update({"theLooper": 138475, "stringQueen": 85739})
 print(user_ids)
 
+
 oscar_winners = {"Best Picture": "La La Land", "Best Actor": "Casey Affleck", "Best Actress": "Emma Stone", "Animated Feature": "Zootopia"}
 print(oscar_winners)
 oscar_winners.update({"Supporting Actress": "Viola Davis"})
 oscar_winners["Best Picture"] = "Moonlight"
 print(oscar_winners)
 oscar_winners["Animated Feature"]= "sherk"
+print(oscar_winners)
+oscar_winners.pop("Animated Feature")
+#del oscar_winners["Best Actress"]
 print(oscar_winners)
