@@ -4,12 +4,12 @@ import urequests
 import time
 
 # Reemplazar con los datos de tu red WiFi
-ssid = "Honor X7"
-password = "Hola Rateros"
+ssid = "red"
+password = "contraseña"
 
 # Inicializar BOT Telegram
-BOTtoken = "6862462489:AAE15Uzh_NDDdaBt8l7WkCfFzq0slLybObU"  # Tu Bot Token (Obtener de Botfather)
-CHAT_ID = "6674626409"
+BOTtoken = "Token"  # Tu Bot Token (Obtener de Botfather)
+CHAT_ID = "Id chat"
 
 buz_pin = machine.Pin(25, machine.Pin.OUT)
 motion_sensor_pin = machine.Pin(27, machine.Pin.IN)
